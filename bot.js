@@ -1,6 +1,6 @@
 const discord = require('discord.js');
 const client = new discord.Client();
-client.login("NjQyMTE1ODQ4NjA1MTM4OTY0.XcSf8w.T9UVVf8REmE4VHI2b1sQDE3Dyag");
+client.login(process.env.BOT_TOKEN);
 
 client.on("ready", () => {
     console.log("Logged in!");
