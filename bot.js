@@ -12,6 +12,16 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+    if (message.author.id !== '619226333058301972') return;
+	message.react('623034988861980673');
+});
+
+client.on('message', message => {
+    if (message.toString().toUpperCase().includes(" IM ") || message.toString().toUpperCase().includes(" I'M " ||)) return;
+	message.react('623034988861980673');
+});
+
+client.on('message', message => {
     if (message.author.id !== '188451576036196373') return;
 	message.channel.send('Yeah, Ok Boomer');
 });
