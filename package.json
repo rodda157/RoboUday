@@ -1,0 +1,8 @@
+{
+"name": "RoboDog",
+"version": "1.0.0",
+"description": "WOOF",
+"main": "bot.js",
+"author": "Nick Wight",
+"dependencies": {}
+}
