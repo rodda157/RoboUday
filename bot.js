@@ -17,7 +17,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.toString().toUpperCase().includes(" IM ") || message.toString().toUpperCase().includes(" I'M " ||)) return;
+    if (message.toString().toUpperCase().includes(" IM ") || message.toString().toUpperCase().includes(" I'M ")) return;
 	message.react('623034988861980673');
 });
 
