@@ -4,5 +4,11 @@
 "description": "WOOF",
 "main": "bot.js",
 "author": "Nick Wight",
-"dependencies": {}
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "11.5.1",
+    "request": "2.81.0"
+  }
 }
