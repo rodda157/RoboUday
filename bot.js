@@ -12,11 +12,11 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.author.id !== '619226333058301972') return;
-	message.react('623034988861980673');
+    if (message.author.id !== '188451576036196373') return;
+	message.channel.send('Yeah, Ok Boomer');
 });
 
 client.on('message', message => {
-    if (message.author.id !== '188451576036196373') return;
-	message.channel.send('Yeah, Ok Boomer');
+    if (message.author.id !== '614287501347127296') return;
+	message.channel.send('Gamer Detected');
 });
