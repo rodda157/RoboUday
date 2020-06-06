@@ -6,17 +6,9 @@ client.on("ready", () => {
     console.log("Logged in!");
 });
 
-client.on('message', message => {
-    if (message.author.id !== '619226333058301972') return;
-	message.react('623034988861980673');
-});
 
 client.on('message', message => {
-    if (message.author.id !== '188451576036196373') return;
-	message.channel.send('Yeah, Ok Boomer');
+    if (message.author.id !== '147239441499422720') return;
+	message.channel.send('Wow I am so very epic.');
 });
 
-client.on('message', message => {
-    if (message.author.id !== '614287501347127296') return;
-	message.channel.send('Gamer Detected');
-});
